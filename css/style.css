@@ -505,3 +505,8 @@ header {
         display: none;
     }
 }
+@media all and (min-width: 1200px) {
+    html {
+        transform: translateY(100px) scale(1.2);
+    }
+}
