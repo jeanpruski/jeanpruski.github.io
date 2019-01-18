@@ -1,0 +1,507 @@
+#container:hover {
+    transform: rotate3d(10, -10, 1, 4deg) scale(1.02);
+}
+.logotype div:hover {
+    transform: rotate(-10deg) scale(1.2);
+}
+.experience:hover {
+    transform: translateX(-40px) scale(1.2);
+    );
+    background-color: black;
+    opacity: 0.8;
+}
+* {
+    transition: all 0.8s;
+}
+
+/* FONTFACE */
+
+@font-face {
+    font-family: "Regular";
+    src: url("../fonts/cgothic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Bold";
+    src: url("../fonts/cgothicbold.ttf") format("truetype");
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html {
+    background-image: linear-gradient(black, #161616);
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color: white;
+    font-family: Regular;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* GENERAL */
+
+img {
+    width: 200px;
+    height: 200px;
+}
+body {}
+header {
+    margin-bottom: 30px;
+}
+section {
+    display: flex;
+}
+.hidetitle {
+    display: none;
+    transition: 2s;
+    opacity: 0;
+    font-size: 2rem;
+    letter-spacing: 0px;
+}
+.hidetitle:first-child {
+    margin-bottom: 20px;
+}
+.hidetitle em {
+    text-decoration: underline;
+    letter-spacing: 15px;
+}
+
+/* PERSO */
+
+#container {
+    max-width: 700px;
+    margin: 6vh auto auto auto;
+    transition: all 1.5s;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* PROFIL */
+
+#profil {
+    text-align: right;
+    margin-bottom: 30px;
+}
+#profil h1 {
+    font-size: 4.5rem;
+    font-family: Bold;
+}
+#profil h2 {
+    font-size: 4.5rem;
+}
+#description {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: Bold;
+}
+
+/* SECTION */
+
+#info {
+    width: 200px;
+    margin-right: 40px;
+}
+#xp {
+    width: 470px;
+}
+
+/* INFORMATION */
+
+#informations {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.birth {
+    font-weight: Bold;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.tel {
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 14px;
+}
+.mail {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 13px;
+}
+.adresse {
+    font-size: 1.1rem;
+    letter-spacing: 0.4px;
+    margin-bottom: 12px;
+}
+.adresse em {
+    display: none;
+}
+.ville {
+    letter-spacing: 3px;
+    font-size: 1.3rem
+}
+
+/* LOGO */
+
+.logotype {
+    display: flex;
+    justify-content: space-between;
+}
+.logotype div {
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* LOGOTYPE */
+
+#ai {
+    background-image: url(../img/ai.svg);
+}
+#ps {
+    background-image: url(../img/ps.svg);
+}
+#id {
+    background-image: url(../img/id.svg);
+}
+#mu {
+    background-image: url(../img/mu.svg);
+}
+#pr {
+    background-image: url(../img/pr.svg);
+}
+#ae {
+    background-image: url(../img/ae.svg);
+}
+#sketchup {
+    background-image: url(../img/sketchup.svg);
+}
+#unity {
+    background-image: url(../img/unity.svg);
+}
+#html {
+    background-image: url(../img/html.svg);
+}
+#css {
+    background-image: url(../img/css.svg);
+}
+#js {
+    background-image: url(../img/js.svg);
+}
+#jquery {
+    background-image: url(../img/jquery.svg);
+}
+
+/* EXPERIENCE */
+
+.experience {
+    margin-bottom: 20px;
+}
+.experience:first-child {
+    margin-top: 5px;
+}
+.experience ul {
+    margin-left: 20px;
+    font-size: 0.7rem;
+}
+.experience ul li {
+    margin-bottom: 5px;
+}
+.experience ul li em {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.xpinfo {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.xptitle {
+    display: flex;
+    align-items: baseline
+}
+.xptitle h3 {
+    text-transform: uppercase;
+    font-family: Bold;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+.xptitle h4 {
+    font-size: 0.7rem;
+}
+.xpdate {
+    display: flex;
+}
+.xpdate p {
+    font-size: 0.8rem;
+}
+.smalltxt {
+    font-size: 0.6rem;
+    font-style: italic;
+}
+.line {
+    background-image: url(../img/line.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+}
+#timeline {
+    width: calc(100%-40px);
+    margin-bottom: 8vh;
+    margin-top: 10px;
+}
+#xptime {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+#xptime div {
+    transform-origin: center;
+    transform: rotate(-90deg);
+}
+@media all and (max-width: 720px) {
+    header img {
+        transform: scale(0);
+    }
+    #profil h1 {
+        font-size: 8rem;
+        font-family: Bold;
+    }
+    #profil h2 {
+        font-size: 8rem;
+    }
+    #container {
+        margin-top: 60px;
+    }
+    #profil {
+        text-align: right;
+        margin-right: 20px;
+    }
+    #informations {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+    section {
+        flex-wrap: wrap;
+    }
+    #info {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #logo {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    .logotype {
+        margin: 20px 10px 20px 10px;
+    }
+    #xp {
+        width: 100%;
+        padding: 20px 20px 0 20px;
+    }
+    .experience {
+        margin-bottom: 40px;
+    }
+    .birth {
+        font-weight: Bold;
+        font-size: 3rem;
+        margin-bottom: 10px;
+        letter-spacing: 5px;
+    }
+    .tel {
+        font-size: 3rem;
+        margin-bottom: 14px;
+    }
+    .mail {
+        font-weight: bold;
+        font-size: 6vw;
+        letter-spacing: 3px;
+        margin: 0px 20px 18px 20px;
+        text-decoration: underline;
+    }
+    .adresse {
+        font-size: 1.85rem;
+        letter-spacing: 3px;
+        margin: 0px 40px;
+        line-height: 50px;
+    }
+    .adresse em {
+        display: inline;
+    }
+    .ville {
+        display: none;
+    }
+    .experience:hover {
+        transform: scale(1.05);
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .hidetitle {
+        font-weight: bold;
+        display: flex;
+        letter-spacing: 10px;
+        opacity: 1;
+    }
+    #timeline {
+        margin: 20px;
+    }
+    #xptime {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #xptime div {
+        width: calc(100% - 40px);
+        margin-bottom: 20px;
+        transform: rotate(0deg);
+    }
+    #xptime div h1 {
+        text-align: left;
+    }
+}
+@media all and (max-width: 650px) {
+    header img {
+        display: none;
+    }
+    #profil {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+    }
+    .line {
+        display: none;
+    }
+}
