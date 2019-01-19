@@ -496,6 +496,9 @@ flexy {
 #timeline:hover {
     transform: rotate3d(-10, 200, 20, 2deg) scale(1.04);
 }
+.formation:hover {
+    transform: rotate3d(-10, 200, 20, 10deg) scale(1.04);
+}
 
 /* MEDIA */
 
