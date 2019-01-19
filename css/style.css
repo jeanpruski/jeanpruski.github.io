@@ -649,8 +649,7 @@ flexy {
 @keyframes go {
     0% {
         opacity: 0;
-        -webkit-transform: translateX(1500px) scale(1.4) rotate(-2deg);
-        transform: translateY(-1500px) scale(10) rotate(50deg);
+        transform: translateY(-2000px) scale(3) rotate(30deg);
     }
     100% {
         opacity: 1;
