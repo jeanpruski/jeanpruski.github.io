@@ -525,6 +525,15 @@ header {
     .line {
         display: none;
     }
+    .mail {
+        font-size: 7vw;
+    }
+    .tel {
+        font-size: 11vw;
+    }
+    .adresse {
+        font-size: 6vw;
+    }
 }
 @media all and (min-width: 1200px) {
     html {
