@@ -5,6 +5,7 @@
 }
 .logotype div:hover {
     transform: rotate(-10deg) scale(1.2);
+    background-color: rgba(0, 0, 0, 0);
 }
 .experience:hover {
     transform: translateX(-40px) scale(1.2);
