@@ -463,9 +463,6 @@ header {
     background-position: left;
     background-color: rgba(0, 0, 0, 0);
 }
-.formation:hover {
-    transform: scale(1.1);
-}
 .formation h1,
 .formation h2,
 .formation h3 {
@@ -475,6 +472,7 @@ header {
 .formation h1 {
     font-size: 0.7rem;
     margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0);
 }
 .formation h2 {
     font-family: Bold;
@@ -483,10 +481,15 @@ header {
     text-transform: uppercase;
     margin-bottom: 10px;
     line-height: 15px;
+    background-color: rgba(0, 0, 0, 0);
 }
 .formation h3 {
     font-size: 0.6rem;
     font-style: italic;
+    background-color: rgba(0, 0, 0, 0);
+}
+flexy {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* MEDIA */
