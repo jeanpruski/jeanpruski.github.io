@@ -30,8 +30,10 @@
    License: none (public domain)
 */
 
+*,
 html {
     background-color: black;
+    text-align: justify;
 }
 html,
 body,
