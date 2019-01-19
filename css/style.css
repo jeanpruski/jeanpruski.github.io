@@ -651,6 +651,9 @@ flexy {
         opacity: 0;
         transform: translateY(-2000px) scale(3) rotate(30deg);
     }
+    80% {
+        opacity: 0.3
+    }
     100% {
         opacity: 1;
     }
