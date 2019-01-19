@@ -781,8 +781,9 @@ flexy {
         transform: rotate3d(0, 0, 0, -4deg) scale(1.0);
     }
     .logotype {
-        padding: 20px 60px 0 60px;
+        padding: 0px 60px 0 60px;
         width: 100%;
+        justify-content: space-between;
     }
     #ai,
     #ps,
