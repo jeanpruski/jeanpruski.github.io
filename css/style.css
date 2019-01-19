@@ -1,7 +1,7 @@
 /* BAKCUP ANIM */
 
 #container:hover {
-    transform: rotate3d(10, -10, 1, 4deg) scale(1.02);
+    transform: rotate3d(0, -10, 1, 4deg) scale(1.0);
 }
 .logotype div:hover {
     transform: rotate(-10deg) scale(1.2);
@@ -770,6 +770,9 @@ flexy {
     }
     .formation h3 {
         font-size: 0.6rem;
+    }
+    #container:hover {
+        transform: rotate3d(0, 0, 0, -4deg) scale(1.0);
     }
 }
 @media all and (min-width: 1200px) {
