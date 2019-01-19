@@ -708,6 +708,9 @@ flexy {
     }
 }
 @media all and (max-width: 650px) {
+    html {
+        overflow-x: hidden;
+    }
     body {
         margin-bottom: 700px;
     }
@@ -777,7 +780,25 @@ flexy {
     #container:hover {
         transform: rotate3d(0, 0, 0, -4deg) scale(1.0);
     }
-    overflow-x: hidden;
+    .logotype {
+        padding: 20px 70px 0 70px;
+        width: 100%;
+    }
+    #ai,
+    #ps,
+    #id,
+    #mu,
+    #pr,
+    #ae,
+    #html,
+    #css,
+    #js,
+    #jquery,
+    #sketchup,
+    #unity {
+        height: 180px;
+        width: 180px;
+    }
 }
 @media all and (min-width: 1200px) {
     html {
