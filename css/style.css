@@ -332,6 +332,15 @@ header {
     background-image: url(../img/jquery.svg);
 }
 
+/* DECO */
+
+#deco {
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+    background-image: url(../img/deco.svg);
+}
+
 /* EXPERIENCE */
 
 .experience {
@@ -502,6 +511,9 @@ header {
     }
     #xptime div h1 {
         text-align: left;
+    }
+    #deco {
+        display: none;
     }
 }
 @media all and (max-width: 650px) {
