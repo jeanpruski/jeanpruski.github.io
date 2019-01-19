@@ -711,6 +711,9 @@ flexy {
     body {
         margin-bottom: 700px;
     }
+    #informations {
+        margin-bottom: 200px;
+    }
     #profil h1 {
         font-size: 25vw;
         font-family: Bold;
