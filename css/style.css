@@ -46,6 +46,9 @@ html {
     text-align: justify;
     perspective: 800px;
 }
+#container {
+    padding-top: 30px;
+}
 html,
 body,
 div,
@@ -705,6 +708,9 @@ flexy {
     }
 }
 @media all and (max-width: 650px) {
+    body {
+        margin-bottom: 500px;
+    }
     #profil h1 {
         font-size: 25vw;
         font-family: Bold;
@@ -757,16 +763,13 @@ flexy {
         height: 140%;
     }
     #container {
-        transform: rotate3d(10, -10, 1, 4deg) scale(0.99);
+        transform: translateY(-80px) rotate3d(10, -10, 1, 4deg) scale(0.99);
     }
     .formation h2 {
         font-size: 0.7rem;
     }
     .formation h3 {
         font-size: 0.6rem;
-    }
-    #container {
-        padding-bottom: 800px;
     }
 }
 @media all and (min-width: 1200px) {
