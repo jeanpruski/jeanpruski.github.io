@@ -765,6 +765,9 @@ flexy {
     .formation h3 {
         font-size: 0.6rem;
     }
+    #container {
+        padding-bottom: 800px;
+    }
 }
 @media all and (min-width: 1200px) {
     html {
