@@ -777,6 +777,7 @@ flexy {
     #container:hover {
         transform: rotate3d(0, 0, 0, -4deg) scale(1.0);
     }
+    overflow-x: hidden;
 }
 @media all and (min-width: 1200px) {
     html {
