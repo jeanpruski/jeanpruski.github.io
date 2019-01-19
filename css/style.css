@@ -388,6 +388,9 @@ header {
     transform: rotate(-90deg);
 }
 @media all and (max-width: 720px) {
+    html {
+        transform: translateY(-140px) scale(0.9);
+    }
     header img {
         transform: scale(0);
     }
@@ -491,6 +494,13 @@ header {
     }
 }
 @media all and (max-width: 650px) {
+    #profil h1 {
+        font-size: 25vw;
+        font-family: Bold;
+    }
+    #profil h2 {
+        font-size: 25vw;
+    }
     header img {
         display: none;
     }
