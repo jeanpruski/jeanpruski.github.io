@@ -688,7 +688,7 @@ flexy {
         height: 150px;
     }
     .formation:hover {
-        transform: rotate3d(-10, 100, -100, 10deg) scale(1.02);
+        transform: rotate3d(-10, 100, -100, 5deg) scale(1.05);
     }
     #timeline:hover {
         transform: rotate3d(-100, -50, 20, 2deg) scale(0.97);
@@ -733,6 +733,28 @@ flexy {
     }
     .adresse {
         font-size: 5vw;
+    }
+    .top_timeline .formation:nth-child(1) {
+        order: 3;
+        height: 120%;
+    }
+    .top_timeline .formation:nth-child(2) {
+        order: 2;
+        height: 80%;
+    }
+    .top_timeline .formation:nth-child(3) {
+        order: 1;
+        height: 130%;
+    }
+    .bottom_timeline .formation:nth-child(1) {
+        order: 3;
+        padding-right: 15px;
+        height: 120%;
+    }
+    .bottom_timeline .formation:nth-child(2) {
+        order: 2;
+        padding-right: 15px;
+        height: 140%;
     }
 }
 @media all and (min-width: 1200px) {
