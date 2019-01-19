@@ -32,6 +32,9 @@
 .adresse {
     text-align: center;
 }
+.experience ul {
+    line-height: 15px;
+}
 
 /* MAIN */
 
@@ -271,7 +274,7 @@ header {
     display: none;
 }
 .ville {
-    letter-spacing: 3px;
+    letter-spacing: 3.51px;
     font-size: 1.3rem
 }
 
