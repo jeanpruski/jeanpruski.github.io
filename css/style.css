@@ -472,7 +472,7 @@ header {
     text-align: left;
 }
 .formation h1 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-bottom: 10px;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -501,7 +501,7 @@ flexy {
 
 @media all and (max-width: 720px) {
     html {
-        transform: translateY(-140px) scale(0.9);
+        transform: translateY(-170px) scale(0.9);
     }
     header img {
         transform: scale(0);
