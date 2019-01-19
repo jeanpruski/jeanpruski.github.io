@@ -1,3 +1,5 @@
+/* BAKCUP ANIM */
+
 #container:hover {
     transform: rotate3d(10, -10, 1, 4deg) scale(1.02);
 }
@@ -25,10 +27,13 @@
     src: url("../fonts/cgothicbold.ttf") format("truetype");
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* PROB JUSTIFY */
+
+.adresse {
+    text-align: center;
+}
+
+/* MAIN */
 
 *,
 html {
