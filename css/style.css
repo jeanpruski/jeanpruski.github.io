@@ -756,6 +756,15 @@ flexy {
         padding-right: 15px;
         height: 140%;
     }
+    #container {
+        transform: rotate3d(10, -10, 1, 4deg) scale(0.99);
+    }
+    .formation h2 {
+        font-size: 0.7rem;
+    }
+    .formation h3 {
+        font-size: 0.6rem;
+    }
 }
 @media all and (min-width: 1200px) {
     html {
