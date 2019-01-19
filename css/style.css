@@ -43,6 +43,7 @@
 html {
     background-color: black;
     text-align: justify;
+    perspective: 800px;
 }
 html,
 body,
@@ -493,7 +494,7 @@ flexy {
     background-color: rgba(0, 0, 0, 0);
 }
 #timeline:hover {
-    transform: rotate3d(-10, 10, 1, -5deg) scale(1.04);
+    transform: rotate3d(-10, 200, 20, 2deg) scale(1.04);
 }
 
 /* MEDIA */
