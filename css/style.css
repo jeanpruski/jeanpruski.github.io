@@ -781,6 +781,7 @@ flexy {
 @media all and (min-width: 1200px) {
     html {
         transform: translateY(100px) scale(1.2);
+        overflow-x: hidden;
     }
     #container {
         transform: translateY(20px) rotate3d(0, -20, 3, -3deg);
