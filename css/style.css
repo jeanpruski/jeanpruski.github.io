@@ -766,7 +766,7 @@ flexy {
         height: 140%;
     }
     #container {
-        transform: translateY(-80px) rotate3d(10, -10, 1, 4deg) scale(0.99);
+        transform: translateY(-140px) rotate3d(10, -10, 1, 4deg) scale(0.99);
     }
     .formation h2 {
         font-size: 0.7rem;
