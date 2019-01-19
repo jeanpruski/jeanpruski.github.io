@@ -11,7 +11,8 @@
     transform: translateX(-40px) scale(1.2);
     );
     background-color: black;
-    opacity: 0.8;
+    opacity: 0.9;
+    box-shadow: 5px 5px 3px rgba(100, 100, 100, 0.05);
 }
 * {
     transition: all 0.8s;
