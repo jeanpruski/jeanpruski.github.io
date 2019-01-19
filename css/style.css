@@ -781,7 +781,7 @@ flexy {
         transform: rotate3d(0, 0, 0, -4deg) scale(1.0);
     }
     .logotype {
-        padding: 20px 70px 0 70px;
+        padding: 20px 60px 0 60px;
         width: 100%;
     }
     #ai,
@@ -796,8 +796,8 @@ flexy {
     #jquery,
     #sketchup,
     #unity {
-        height: 180px;
-        width: 180px;
+        height: 30vw;
+        width: 30vw;
     }
 }
 @media all and (min-width: 1200px) {
