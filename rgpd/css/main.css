@@ -312,6 +312,7 @@ hr {
         display: flex;
         background-image: url(../img/full.svg);
         height: 100vh;
+        background-position: center;
         Background-size: contain;
         background-repeat: no-repeat;
         margin-top: 10vh;
