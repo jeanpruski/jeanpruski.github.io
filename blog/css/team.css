@@ -1,5 +1,14 @@
 /* TEAM */
 
+article .row a,
+article .row a:hover {
+    text-decoration: none;
+    color: black;
+}
+article .row a:hover {
+    transform: scale(1.2);
+    color: grey;
+}
 
 /* NAV & HEADER */
 
