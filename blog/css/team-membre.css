@@ -39,32 +39,17 @@ header h2 {
 #article-main-title {
     font-size: 2rem;
     font-weight: bold;
-    margin: 40px auto 60px auto;
+    margin-top: 10px;
 }
-.box {
-    text-align: center;
+img {
+    height: 250px;
+    width: 250px;
+    float: left;
+    border-radius: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
-.box h5 {
-    font-family: courgette;
-}
-.box h6 {
-    margin-bottom: 30px;
-}
-.photo-team {
-    margin: auto;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 100px;
-    height: 150px;
-    width: 150px;
-}
-.tony {
-    background-image: url(../img/team/tony.jpg);
-}
-.clem {
-    background-image: url(../img/team/clementine.jpg);
-}
-.antoine {
-    background-image: url(../img/team/antoine.jpg);
+.texte {}
+p {
+    text-align: justify;
 }
