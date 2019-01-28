@@ -33,6 +33,7 @@ article {
     max-height: 730px;
     min-width: 700px;
     width: 90vw;
+    max-width: 1300px;
     padding: 20px;
     margin: 6vh auto 0 auto;
     border-bottom: 10px solid rgba(150, 150, 150, 0.15);
@@ -203,6 +204,12 @@ hr {
     margin-top: 20px;
     padding: 0 20px;
 }
+.flexy-texte {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin-bottom: 40px;
+}
 .flex-texte:first-child {
     margin-top: 50px;
 }
@@ -220,6 +227,14 @@ hr {
     line-height: 20px;
     font-size: 1rem;
 }
+.text-vide {
+    width: 70%;
+}
+.text-plein {
+    text-align: center;
+    width: 52%;
+    font-weight: bold;
+}
 .text-bold {
     text-align: center;
     width: 25%;
@@ -233,10 +248,45 @@ hr {
     text-align: center;
 }
 
+/* C EST QUOI */
+
+.cestquoi-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.cestquoi-box {
+    width: 46%;
+    height: 300px;
+}
+.cestquoi-ou {
+    width: 6%;
+}
+.inl h3 {
+    margin-left: 15vw;
+    font-size: 3.5rem;
+}
+.inl-d h3 {
+    font-size: 3.5rem;
+}
+.inl-d {
+    text-align: right;
+    margin-right: 15vw;
+}
+.inl h3,
+.inl h4,
+.inl-d h3,
+.inl-d h4 {
+    display: inline;
+}
+
+/* SANCTION */
+
+
 /* KEYFRAMES */
 
 @keyframes go {
     0% {
+        opacity: 0;
         transform: scale(1);
     }
     20% {
