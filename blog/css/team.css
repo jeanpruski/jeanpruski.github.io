@@ -34,6 +34,11 @@ header h2 {
 
 /* TEAM ARTICLE */
 
+#article-main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 40px auto 60px auto;
+}
 .box {
     text-align: center;
 }
