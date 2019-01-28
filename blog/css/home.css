@@ -1,0 +1,64 @@
+/* NAV & HEADER */
+
+header {
+    padding: 40px 0;
+    border-top: 1px solid grey;
+}
+#header-img {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#header-color {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+header .logo-main {
+    background-image: url(../img/logo_square_white.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+header h2 {
+    font-size: 1.9rem;
+    margin: 0;
+}
+header h1,
+header h2 {
+    color: white;
+    text-align: center;
+    font-family: "Courgette";
+}
+
+/* MAIN ARTICLE */
+
+#article-main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 40px auto 60px auto;
+}
+.media {
+    text-align: justify;
+}
+.media h5 {
+    font-family: "courgette";
+    font-size: 1.5rem;
+}
+
+/* MAIN ASIDE */
+
+article h3 {
+    font-family: "courgette";
+    font-size: 1.3rem;
+}
+.articles>div {
+    margin-bottom: 15px;
+}
+#aside-logo i {
+    margin-right: 20px;
+}

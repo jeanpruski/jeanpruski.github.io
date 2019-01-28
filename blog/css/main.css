@@ -1,0 +1,50 @@
+* {
+    transition: all 1s;
+}
+body {
+    font-family: "Oswald";
+}
+.colorisation {
+    font-family: "Courgette" !important;
+    font-size: 2rem;
+}
+
+/* FOOTER */
+
+#footer {
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    background-color: black;
+    width: 100%;
+}
+#footer ul {
+    padding-inline-start: 0px;
+    list-style: none;
+    text-decoration: underline;
+}
+#footer h5 {
+    font-family: "courgette";
+    font-size: 1.6rem;
+}
+#footer h6 {
+    font-family: "courgette";
+}
+#footer-logo i {
+    color: black;
+    padding: 5px;
+    background-color: white;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+#footer form .btn-perso {
+    color: white;
+    border: 1px solid white;
+}
+#footer form .btn-perso:hover {
+    background-color: grey;
+}
+#footer form {
+    margin-bottom: 20px;
+}
