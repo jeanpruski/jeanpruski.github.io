@@ -48,3 +48,31 @@ body {
 #footer form {
     margin-bottom: 20px;
 }
+
+/* MAIN ARTICLE */
+
+#article-main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 40px auto 60px auto;
+}
+.media {
+    text-align: justify;
+}
+.media h5 {
+    font-family: "courgette";
+    font-size: 1.5rem;
+}
+
+/* MAIN ASIDE */
+
+article h3 {
+    font-family: "courgette";
+    font-size: 1.3rem;
+}
+.articles>div {
+    margin-bottom: 15px;
+}
+#aside-logo i {
+    margin-right: 20px;
+}

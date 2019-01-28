@@ -1,0 +1,63 @@
+/* TEAM */
+
+
+/* NAV & HEADER */
+
+header {
+    padding: 40px 0;
+    border-top: 1px solid grey;
+}
+#header-img {
+    background-image: url(../img/team/team.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#header-color {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 20px;
+}
+header h2 {
+    font-size: 1.9rem;
+    margin: 0;
+    margin-bottom: 50px;
+}
+header h1,
+header h2 {
+    color: white;
+    text-align: center;
+    font-family: "Courgette";
+}
+
+/* TEAM ARTICLE */
+
+.box {
+    text-align: center;
+}
+.box h5 {
+    font-family: courgette;
+}
+.box h6 {
+    margin-bottom: 30px;
+}
+.photo-team {
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+.tony {
+    background-image: url(../img/team/tony.jpg);
+}
+.clem {
+    background-image: url(../img/team/clementine.jpg);
+}
+.antoine {
+    background-image: url(../img/team/antoine.jpg);
+}
