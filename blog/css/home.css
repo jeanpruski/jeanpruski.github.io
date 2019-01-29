@@ -40,8 +40,18 @@ header h2 {
 .over:hover {
     transform: scale(1.05);
 }
-.over:hover p {
-    background-color: aqua;
+.over:hover .hover {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    display: block;
+    background-image: url(../img/logo_square_black.png);
+    background-position: center 35px;
+    background-size: 20%;
+    background-repeat: no-repeat;
 }
 a {
     color: unset;
@@ -49,4 +59,26 @@ a {
 a:hover {
     color: unset;
     text-decoration: none;
+}
+.hover {
+    display: none;
+    opacity: 0;
+}
+.media {
+    z-index: 100;
+}
+@media all and (max-width: 768px) {
+    .over:hover .hover {
+        height: 100%;
+        width: 100%;
+        display: block;
+        background-image: url(../img/logo_square_black.png);
+        background-position: center 26%;
+        background-size: 20%;
+        background-repeat: no-repeat;
+        z-index: 5;
+    }
+    .over:hover {
+        transform: scale(0.95);
+    }
 }

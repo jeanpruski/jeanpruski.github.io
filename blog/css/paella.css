@@ -1,0 +1,96 @@
+/* TEAM */
+
+article .row a,
+article .row a:hover {
+    text-decoration: none;
+    color: black;
+}
+article .row a:hover {
+    transform: scale(1.2);
+    color: grey;
+}
+
+/* NAV & HEADER */
+
+header {
+    padding: 40px 0;
+    border-top: 1px solid grey;
+    min-height: 250px;
+    height: 20vw;
+}
+#header-img {
+    background-image: url(../img/recipes/paella/paella-header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#header-color {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 20px;
+}
+header h2 {
+    font-size: 1.9rem;
+    margin: 0;
+    margin-bottom: 50px;
+}
+header h1,
+header h2 {
+    color: white;
+    text-align: center;
+    font-family: "Courgette";
+}
+
+/* TEAM ARTICLE */
+
+#article-main-title-plat {
+    font-size: 2rem;
+    font-family: "courgette";
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+.box {
+    text-align: center;
+}
+.box h5 {
+    font-family: courgette;
+}
+.box h6 {
+    margin-bottom: 30px;
+}
+.precisions h6 {
+    font-family: courgette;
+}
+.precisions p {
+    text-align: justify;
+}
+.photo-sponso {
+    overflow: hidden;
+    margin-top: 40px;
+}
+.photo-sponso div img {
+    width: 18vw;
+    min-width: 150px;
+    text-align: center;
+}
+.photo-sponso div p {
+    background-color: lightgray;
+    display: inline;
+    padding: 0 5px;
+    position: absolute;
+    bottom: 0px;
+    margin: 0;
+}
+.prep {
+    align-items: center;
+    margin-top: 40px;
+}
+.prep div {
+    text-align: center;
+    height: 32%;
+    margin-top: 5px;
+    background-color: lightgray;
+}

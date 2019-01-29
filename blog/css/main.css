@@ -1,6 +1,9 @@
 * {
     transition: all 1s;
 }
+html {
+    overflow-x: hidden;
+}
 body {
     font-family: "Oswald";
 }
