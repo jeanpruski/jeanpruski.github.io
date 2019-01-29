@@ -1,0 +1,100 @@
+/* NAV & HEADER */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+header {
+    padding: 40px 0;
+    border-top: 1px solid grey;
+    display: flex;
+}
+#header-img {
+    background-image: url(../img/articles/suzette/suzette-header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+header .logo-main {
+    margin-bottom: 200px;
+}
+header .title-color-bg {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0 20px;
+    display: inline-block;
+    margin: auto;
+}
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+header h2 {
+    font-size: 1.9rem;
+    margin: 0;
+}
+header h1,
+header h2 {
+    color: white;
+    text-align: center;
+    font-family: "Courgette";
+}
+#article-title {
+    font-family: courgette;
+    margin-top: 30px;
+}
+.bingo h1 {
+    font-size: 1.8rem;
+    font-family: courgette;
+}
+.bingo p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.bingo em {
+    float: left;
+    font-size: 3.3rem;
+    font-style: normal;
+    font-weight: bold;
+    color: grey;
+    line-height: 40px;
+    margin-right: 10px;
+}
+.perso-infos {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.photo-perso-infos {
+    height: 150px;
+    width: 150px;
+    background-image: url(../img/team/antoine.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+.infos-perso-infos {
+    width: 65%;
+}
+.infos-perso-infos p {
+    line-height: 25px;
+}
+form.commentaire label {
+    font-family: courgette;
+    font-size: 1.2rem;
+}
+form.commentaire input,
+form.commentaire textarea {
+    font-weight: bold;
+}
+form.commentaire textarea {
+    margin-bottom: 40px;
+}
+.bingo img {
+    height: 100px;
+    width: 100px;
+}
+.bingo img:last-child {
+    opacity: 0.5;
+}
