@@ -34,3 +34,19 @@ header h2 {
     text-align: center;
     font-family: "Courgette";
 }
+.over {
+    cursor: pointer;
+}
+.over:hover {
+    transform: scale(1.05);
+}
+.over:hover p {
+    background-color: aqua;
+}
+a {
+    color: unset;
+}
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
