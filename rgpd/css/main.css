@@ -6,6 +6,7 @@
     overflow: hidden;
     user-select: none;
     font-family: Nunito;
+    font-weight: bold;
 }
 #coucou {
     display: none;
@@ -168,13 +169,19 @@ hr {
     font-style: normal;
 }
 .main {
-    margin-top: 20px;
+    margin-top: 0px;
     width: 100%;
     height: 560px;
 }
 .main h1 {
-    font-size: 1.6rem !important;
+    font-size: 2.5rem !important;
     margin: 20px 0 0 0 !important;
+    font-weight: bold;
+}
+.main h2 {
+    font-size: 2rem !important;
+    text-align: center;
+    margin: 0 0 0 0 !important;
 }
 #timeline {
     padding: 0 30px;
@@ -247,11 +254,21 @@ hr {
     margin-top: 8vh;
     text-align: center;
 }
+#historique .main {
+    margin-top: 0px;
+}
+#historique .main h1 {
+    font-size: 2rem !important;
+}
 
 /* C EST QUOI */
 
+.titleh1 h1 {
+    font-size: 2rem !important;
+}
 .cestquoi-flex {
     display: flex;
+    margin-bottom: -20px;
     justify-content: space-between;
 }
 .cestquoi-box {
@@ -260,6 +277,9 @@ hr {
 }
 .cestquoi-ou {
     width: 6%;
+}
+.cestquoi-ou h1 {
+    font-weight: 100 !important;
 }
 .inl h3 {
     margin-left: 15vw;
@@ -281,6 +301,23 @@ hr {
 
 /* SANCTION */
 
+
+/* CA SERT A QUOI */
+
+.flexion {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.flexion h3 {
+    width: 70vw;
+    text-align: justify;
+}
+.flexion i {
+    text-align: center;
+    width: 150px;
+    height: 100px;
+}
 
 /* KEYFRAMES */
 
@@ -368,4 +405,51 @@ hr {
         margin-top: 10vh;
         transform: scaleX(1);
     }
+}
+.main {
+    margin-top: 40px;
+}
+#sanctions .main h1 {
+    font-size: 2.6rem !important;
+    margin: 20px 0 0 0 !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#sanctions .main h1 em {
+    font-size: 2.2rem !important;
+    font-weight: 100;
+    text-decoration-color: unset;
+}
+#sanctions .main h2 {
+    font-size: 2rem !important;
+    text-align: center;
+    margin: 20px 0 0 0 !important;
+}
+#sanctions .flexy {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#sanctions .flexy h2 {
+    width: 44%;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+    padding: 10px;
+}
+.border {
+    width: 44%;
+    font-size: 2rem;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.border p {}
+#sanctions .flexy h2 em {
+    color: white;
+    font-weight: 100;
 }
