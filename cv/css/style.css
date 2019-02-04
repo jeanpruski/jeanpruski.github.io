@@ -872,3 +872,19 @@ flexy {
         opacity: 1;
     }
 }
+
+/* BOOK */
+
+#blockus {
+    width: 100%;
+}
+#blockus hr {
+    border: 0.05rem solid white;
+    margin-bottom: 20px;
+}
+.book {
+    background-color: red;
+    height: 140px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
