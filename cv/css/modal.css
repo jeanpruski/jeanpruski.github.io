@@ -1,0 +1,18 @@
+#modal-container {
+    display: none;
+    color: black;
+    background-color: white;
+    height: 70vh;
+    cursor: pointer;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 3vh;
+    transition: all 1.5s;
+    animation: go 0.6s ease;
+    transform: rotate3d(-30, 50, -10, 2deg);
+}
+@media all and (max-width: 720px) {
+    #modal-container {
+        margin-top: 35vh;
+    }
+}
