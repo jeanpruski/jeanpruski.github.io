@@ -563,23 +563,27 @@ flexy {
 .book .boxy:hover {
     transform: rotate3d(-10, 10, -100, 2deg) scale(1.4);
     z-index: 10;
-    opacity: 0.85;
+}
+.book .boxy:hover p {
+    transform: rotate3d(-10, 100, 50, 10deg)translate(-5px, -2px) scaleY(1.8);
+    transform-origin: bottom right;
+    font-size: 1.8rem;
+    z-index: 10;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px black;
 }
 .book .boxy p {
+    font-size: 0.9rem;
     background-color: unset;
     color: black;
     position: absolute;
-    bottom: 7px;
-    right: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    bottom: 5px;
+    right: 7px;
     opacity: 0.85;
     font-weight: bold;
-}
-#ligne {
-    margin-top: 10px;
-    height: 80px;
-    width: 1px;
-    background-color: white;
-    opacity: 0.1;
 }
 #weby {
     background-image: url(../img/web.svg);
@@ -607,6 +611,13 @@ flexy {
 @media all and (max-width: 720px) {
     #timeline {
         display: none;
+    }
+    .book .boxy:hover p {
+        transform: rotate3d(-10, 10, -100, 2deg) scale(1.4) translate(-50px, -20px);
+        z-index: 10;
+        font-size: 15vw;
+        bottom: 20px;
+        right: 20px;
     }
     html {
         transform: translateY(-170px) scale(0.9);
