@@ -550,6 +550,12 @@ flexy {
     display: flex;
     background-repeat: no-repeat;
     background-position: center center;
+    cursor: pointer;
+}
+.book .boxy:hover {
+    transform: rotate3d(-10, 10, -100, 2deg) scale(1.4);
+    z-index: 10;
+    opacity: 0.85;
 }
 .book .boxy p {
     background-color: unset;
@@ -585,27 +591,6 @@ flexy {
 /* MEDIA */
 
 @media all and (max-width: 720px) {
-    .book .boxy {
-        height: 333px;
-        width: 100%;
-        margin-bottom: 20px;
-        background-size: cover;
-        background-position: top;
-    }
-    .book .boxy:first-child {
-        margin-top: 40px;
-    }
-    .book .boxy p {
-        font-size: 15vw;
-        bottom: 20px;
-        right: 20px;
-    }
-    #ligne {
-        display: none;
-    }
-    .book {
-        flex-wrap: wrap;
-    }
     #id {
         display: none;
     }
@@ -814,6 +799,29 @@ flexy {
         margin-top: 0;
         font-size: 0.8rem;
         line-height: 20px;
+    }
+    .book .boxy {
+        height: 333px;
+        width: 100%;
+        margin-bottom: 20px;
+        background-size: cover;
+        background-position: top;
+    }
+    .book .boxy:hover {
+        transform: rotate3d(10, 10, -100, -2deg) scale(1.01);
+        z-index: 10;
+        opacity: 0.85;
+    }
+    .book .boxy:first-child {
+        margin-top: 40px;
+    }
+    .book .boxy p {
+        font-size: 15vw;
+        bottom: 20px;
+        right: 20px;
+    }
+    .book {
+        flex-wrap: wrap;
     }
 }
 @media all and (max-width: 650px) {
