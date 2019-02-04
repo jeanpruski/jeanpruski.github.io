@@ -524,9 +524,85 @@ flexy {
     transform: rotate3d(-10, 200, 20, 10deg) scale(1.04);
 }
 
+/* BOOK */
+
+#blockus {
+    width: 100%;
+}
+#blockus hr {
+    border: 0.03rem solid white;
+    margin-bottom: 20px;
+    opacity: 0.85;
+}
+.book {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.book .boxy {
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    height: 100px;
+    width: 16%;
+    background-color: unset;
+    color: black;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.book .boxy p {
+    background-color: unset;
+    color: black;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    opacity: 0.85;
+}
+#ligne {
+    margin-top: 10px;
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    opacity: 0.1;
+}
+#weby {
+    background-image: url(../img/web.svg);
+}
+#logoy {
+    background-image: url(../img/logo.svg);
+}
+#othery {
+    background-image: url(../img/other.svg);
+}
+#printy {
+    background-image: url(../img/print.svg);
+}
+
 /* MEDIA */
 
 @media all and (max-width: 720px) {
+    .book .boxy {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 20px;
+        background-size: cover;
+        background-position: top;
+    }
+    .book .boxy:first-child {
+        margin-top: 40px;
+    }
+    .book .boxy p {
+        font-size: 15vw;
+        bottom: 20px;
+        right: 20px;
+    }
+    #ligne {
+        display: none;
+    }
+    .book {
+        flex-wrap: wrap;
+    }
     #id {
         display: none;
     }
@@ -871,20 +947,4 @@ flexy {
     100% {
         opacity: 1;
     }
-}
-
-/* BOOK */
-
-#blockus {
-    width: 100%;
-}
-#blockus hr {
-    border: 0.05rem solid white;
-    margin-bottom: 20px;
-}
-.book {
-    background-color: red;
-    height: 140px;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
