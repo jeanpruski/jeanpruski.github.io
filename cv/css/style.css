@@ -543,8 +543,8 @@ flexy {
 .book .boxy {
     border-top-right-radius: 7px;
     border-bottom-left-radius: 7px;
-    height: 100px;
-    width: 16%;
+    height: 105px;
+    width: 18%;
     background-color: unset;
     color: black;
     display: flex;
@@ -555,8 +555,8 @@ flexy {
     background-color: unset;
     color: black;
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    bottom: 10px;
+    right: 10px;
     opacity: 0.85;
 }
 #ligne {
@@ -578,12 +578,15 @@ flexy {
 #printy {
     background-image: url(../img/print.svg);
 }
+#githuby {
+    background-image: url(../img/github.svg);
+}
 
 /* MEDIA */
 
 @media all and (max-width: 720px) {
     .book .boxy {
-        height: 200px;
+        height: 333px;
         width: 100%;
         margin-bottom: 20px;
         background-size: cover;
