@@ -294,6 +294,10 @@ header {
 
 /* LOGO */
 
+#logo {
+    margin-top: 20px;
+}
+
 .logotype {
     display: flex;
     justify-content: space-between;
@@ -375,7 +379,7 @@ header {
 /* EXPERIENCE */
 
 .experience {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .experience:first-child {
     margin-top: 5px;
