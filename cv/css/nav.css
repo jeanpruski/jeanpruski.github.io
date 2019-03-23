@@ -41,7 +41,7 @@
   }
   .carousel-indicators .active{
     background-color: black !important;
+    opacity: 0.75;
     transform: scaleY(5)!important;
   }
-
 }
