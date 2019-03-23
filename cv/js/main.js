@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+    // Lien vers la modal-web
+    // $('#weby').click(function() {
+    //     $('#modal-web').css('display', 'block');
+    // });
 
     /*  //Lien vers le modal-web
       $('#weby').click(function () {
@@ -7,6 +11,7 @@ $(document).ready(function () {
           $('#modal-container').css('display', 'block');
       });
       /*
+
       //Lien vers le modal-logo
       $('#logoy').click(function () {
           $('#container').css('display', 'none');
