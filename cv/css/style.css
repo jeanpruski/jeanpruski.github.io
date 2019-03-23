@@ -613,6 +613,10 @@ flexy {
 /* MEDIA */
 
 @media all and (max-width: 720px) {
+
+    .coolux {
+        margin-bottom: 50px;
+    }
     #timeline {
         display: none;
     }

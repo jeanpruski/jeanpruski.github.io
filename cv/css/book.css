@@ -1,3 +1,5 @@
+
+
 /* FONTFACE */
 
 @font-face {
@@ -166,10 +168,6 @@ body {
 
 }
 
-.body-logo {
-  background-image: radial-gradient(white, black);
-
-}
 
 nav i {
   color: white;
