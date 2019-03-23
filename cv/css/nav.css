@@ -1,11 +1,5 @@
 /* NAV CSS */
 
-nav {
-  background-color: red;
-  height: 50px;
-  width: 100%;
-}
-
-nav i {
-  
+.bg-dark {
+  background: rgba(0,0,0,0) !important;
 }
