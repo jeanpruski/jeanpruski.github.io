@@ -17,6 +17,10 @@
 .carousel-control-prev-icon, .carousel-control-next-icon {
   transform: scale(1.4);
 }
+.carousel-indicators .active{
+  transition: all 1.3s;
+  background-color: white !important;
+}
 
 .bg-dark {
   background: rgba(0,0,0,0) !important;
@@ -31,6 +35,13 @@
     top: 0px;
     padding: 10px 10px !important;
     z-index: 15 !important;
+  }
+  .carousel-indicators {
+    height: 10px !important;
+  }
+  .carousel-indicators .active{
+    background-color: black !important;
+    transform: scaleY(5)!important;
   }
 
 }
