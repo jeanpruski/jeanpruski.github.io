@@ -1,5 +1,12 @@
 /* NAV CSS */
 
+.navbar {
+  position: absolute !important;
+  right: 0px;
+  padding: 0.5rem 1.5rem !important;
+  z-index: 15 !important;
+}
+
 .bg-dark {
   background: rgba(0,0,0,0) !important;
 }
