@@ -1,2 +1,2 @@
 # jeanpruski.github.io
-🦕🦖
+🦕
